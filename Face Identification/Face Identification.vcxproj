@@ -197,6 +197,8 @@
   <ItemGroup>
     <ClInclude Include="Face Identification.h" />
     <ClInclude Include="Face IdentificationDlg.h" />
+    <ClInclude Include="putText.h" />
+    <ClInclude Include="RegisterNewUser.h" />
     <ClInclude Include="Resource.h" />
     <ClInclude Include="stdafx.h" />
     <ClInclude Include="targetver.h" />
@@ -204,6 +206,8 @@
   <ItemGroup>
     <ClCompile Include="Face Identification.cpp" />
     <ClCompile Include="Face IdentificationDlg.cpp" />
+    <ClCompile Include="putText.cpp" />
+    <ClCompile Include="RegisterNewUser.cpp" />
     <ClCompile Include="stdafx.cpp">
       <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Create</PrecompiledHeader>
       <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Create</PrecompiledHeader>
