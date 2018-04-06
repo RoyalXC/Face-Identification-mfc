@@ -197,6 +197,10 @@
   <ItemGroup>
     <ClInclude Include="Face Identification.h" />
     <ClInclude Include="Face IdentificationDlg.h" />
+    <ClInclude Include="FaceComparison.h" />
+    <ClInclude Include="FaceDatabase.h" />
+    <ClInclude Include="FaceIdentification.h" />
+    <ClInclude Include="faceidentification_define.h" />
     <ClInclude Include="putText.h" />
     <ClInclude Include="RegisterNewUser.h" />
     <ClInclude Include="Resource.h" />
@@ -206,6 +210,9 @@
   <ItemGroup>
     <ClCompile Include="Face Identification.cpp" />
     <ClCompile Include="Face IdentificationDlg.cpp" />
+    <ClCompile Include="FaceComparison.cpp" />
+    <ClCompile Include="FaceDatabase.cpp" />
+    <ClCompile Include="FaceIdentification.cpp" />
     <ClCompile Include="putText.cpp" />
     <ClCompile Include="RegisterNewUser.cpp" />
     <ClCompile Include="stdafx.cpp">

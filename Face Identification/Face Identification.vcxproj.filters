@@ -36,6 +36,18 @@
     <ClInclude Include="RegisterNewUser.h">
       <Filter>头文件</Filter>
     </ClInclude>
+    <ClInclude Include="FaceComparison.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="FaceDatabase.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="FaceIdentification.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="faceidentification_define.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Face Identification.cpp">
@@ -51,6 +63,15 @@
       <Filter>源文件</Filter>
     </ClCompile>
     <ClCompile Include="RegisterNewUser.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="FaceComparison.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="FaceDatabase.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="FaceIdentification.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
   </ItemGroup>
