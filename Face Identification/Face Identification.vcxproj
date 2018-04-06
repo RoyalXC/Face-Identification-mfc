@@ -88,15 +88,15 @@
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
     <LinkIncremental>false</LinkIncremental>
-    <IncludePath>ArcFace\include;libfacedetection\include;OpenCV\x86\include;sqlite3;$(IncludePath)</IncludePath>
+    <IncludePath>ArcFace\include;libfacedetection\include;OpenCV\x86\include;sqlite3;Zbar\include;$(IncludePath)</IncludePath>
     <ReferencePath>sqlite3;OpenCV\x86\dll;libfacedetection\dll;ArcFace\dll;$(ReferencePath)</ReferencePath>
-    <LibraryPath>ArcFace\lib;libfacedetection\lib;OpenCV\x86\lib;sqlite3;$(LibraryPath)</LibraryPath>
+    <LibraryPath>ArcFace\lib;libfacedetection\lib;OpenCV\x86\lib;sqlite3;Zbar\lib;$(LibraryPath)</LibraryPath>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
     <LinkIncremental>false</LinkIncremental>
-    <IncludePath>ArcFace\include;libfacedetection\include;OpenCV\x86\include;sqlite3;$(IncludePath)</IncludePath>
+    <IncludePath>ArcFace\include;libfacedetection\include;OpenCV\x86\include;sqlite3;Zbar\include;$(IncludePath)</IncludePath>
     <ReferencePath>sqlite3;OpenCV\x86\dll;libfacedetection\dll;ArcFace\dll;$(ReferencePath)</ReferencePath>
-    <LibraryPath>ArcFace\lib;libfacedetection\lib;OpenCV\x86\lib;sqlite3;$(LibraryPath)</LibraryPath>
+    <LibraryPath>ArcFace\lib;libfacedetection\lib;OpenCV\x86\lib;sqlite3;Zbar\lib;$(LibraryPath)</LibraryPath>
   </PropertyGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
     <ClCompile>
@@ -155,7 +155,7 @@
       <SubSystem>Windows</SubSystem>
       <EnableCOMDATFolding>true</EnableCOMDATFolding>
       <OptimizeReferences>true</OptimizeReferences>
-      <AdditionalDependencies>sqlite3.lib;opencv_world341.lib;libfacedetect.lib;libarcsoft_fsdk_age_estimation.lib;libarcsoft_fsdk_face_detection.lib;libarcsoft_fsdk_face_recognition.lib;libarcsoft_fsdk_face_tracking.lib;libarcsoft_fsdk_gender_estimation.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <AdditionalDependencies>sqlite3.lib;opencv_world341.lib;libfacedetect.lib;libarcsoft_fsdk_age_estimation.lib;libarcsoft_fsdk_face_detection.lib;libarcsoft_fsdk_face_recognition.lib;libarcsoft_fsdk_face_tracking.lib;libarcsoft_fsdk_gender_estimation.lib;libzbar-0.lib;%(AdditionalDependencies)</AdditionalDependencies>
     </Link>
     <Midl>
       <MkTypLibCompatible>false</MkTypLibCompatible>
@@ -181,7 +181,7 @@
       <SubSystem>Windows</SubSystem>
       <EnableCOMDATFolding>true</EnableCOMDATFolding>
       <OptimizeReferences>true</OptimizeReferences>
-      <AdditionalDependencies>sqlite3.lib;opencv_world341.lib;libfacedetect.lib;libarcsoft_fsdk_age_estimation.lib;libarcsoft_fsdk_face_detection.lib;libarcsoft_fsdk_face_recognition.lib;libarcsoft_fsdk_face_tracking.lib;libarcsoft_fsdk_gender_estimation.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <AdditionalDependencies>sqlite3.lib;opencv_world341.lib;libfacedetect.lib;libarcsoft_fsdk_age_estimation.lib;libarcsoft_fsdk_face_detection.lib;libarcsoft_fsdk_face_recognition.lib;libarcsoft_fsdk_face_tracking.lib;libarcsoft_fsdk_gender_estimation.lib;libzbar-0.lib;%(AdditionalDependencies)</AdditionalDependencies>
     </Link>
     <Midl>
       <MkTypLibCompatible>false</MkTypLibCompatible>
