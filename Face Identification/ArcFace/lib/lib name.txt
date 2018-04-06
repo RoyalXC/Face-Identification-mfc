@@ -1,0 +1,5 @@
+libarcsoft_fsdk_age_estimation.lib
+libarcsoft_fsdk_face_detection.lib
+libarcsoft_fsdk_face_recognition.lib
+libarcsoft_fsdk_face_tracking.lib
+libarcsoft_fsdk_gender_estimation.lib
